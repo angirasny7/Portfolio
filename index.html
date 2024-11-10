@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Angira Yadav</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#courses" class="nav__link">Courses</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>Hi There, I'm</span><br> Angira Yadav</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'm Angira Yadav</h2>
+                        <span class="about__profession">Computer Science Student </span>
+                        <p class="about__text">I'm currently a second-year Computer Science student, developing a strong foundation
+                             in programming and problem-solving. I have experience with languages such as C, C++, Java, and Python,
+                            and I'm passionate about creating user-friendly applications. I've worked on several projects, including
+                            a GUI-based Password Manager, a Smart Attendance System using Facial Recognition, and a Heart Condition-Based
+                             Diet Plan Generator, which have enhanced my skills in both frontend and backend development. I'm eager to 
+                             continue learning and growing as a developer.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/angira-yadav-258454315/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/angirasny7" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">SQL</span>
+                        
+                        <h3 class="skills__subtitle">Tech Skills</h3>
+                        <span class="skills__name">C</span>
+                        <span class="skills__name">C++</span>
+                        <span class="skills__name">Java</span>
+                        <span class="skills__name">Python</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ONLINE COURSES AND CERTIFICATIONS =====-->
+        <section class="courses section" id="courses">
+            <h2 class="section-title">Online Courses & Certifications</h2>
+
+            <div class="courses__container bd-grid">
+                <div class="courses__item">
+                    <h3 class="courses__subtitle">C for Everyone: Programming Fundamentals</h3>
+                    <span class="courses__platform">Platform: Coursera</span>
+                    <p class="courses__description">C for Everyone: Programming Fundamentals on Coursera introduces essential programming
+                         concepts through the C language. It covers basics like data types, control structures, functions, and pointers, 
+                         helping beginners build a foundation in coding. Hands-on projects include small coding exercises, such as creating
+                          simple calculators, sorting algorithms, and data manipulation tasks, reinforcing problem-solving and debugging skills.</p>
+                </div>
+                
+                <div class="courses__item">
+                    <h3 class="courses__subtitle"> C for Everyone: Structured Programming</h3>
+                    <span class="courses__platform">Platform: Coursera</span>
+                    <p class="courses__description">C for Everyone: Structured Programming on Coursera expands on foundational C skills by introducing 
+                        structured programming techniques. Learners delve into arrays, strings, pointers, memory allocation, and more complex data handling.
+                        The course includes hands-on projects, such as building simple data structures, implementing sorting algorithms, and working with 
+                        memory management, to strengthen understanding of structured and modular programming principles.</p>
+                </div>
+                
+                <div class="courses__item">
+                    <h3 class="courses__subtitle">Data Structures Demystified: A Beginner's Journey</h3>
+                    <span class="courses__platform">Platform: Udemy</span>
+                    <p class="courses__description">Data Structures Demystified: A Beginner's Journey on Udemy introduces key data structures, including arrays,
+                         linked lists, stacks, queues, trees, and hash tables. Designed for beginners, it covers how each structure works, when to use it, and 
+                         how to implement it efficiently. Projects include creating custom data structures and applying algorithms to solve real-world problems, 
+                         enhancing students' problem-solving and coding skills.</p>
+                </div>
+            </div>
+        </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/work1.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work2.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work3.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work4.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work5.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work6.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">ay7192@srmist.edu.in</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">9569836178</span>
+
+                        <h3 class="contact__subtitle">ADDRESS</h3>
+                        <span class="contact__text">Gorakhpur, UP, India</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Submit" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Angira Yadav</h2>
+                    <p class="footer__text">This is Angira's personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
